@@ -11,4 +11,5 @@
     <string name="login_failed">"Login failed"</string>
     <string name="go_to_login"><u>LOGIN INSTEAD</u></string>
     <string name="go_to_register"><u>NEW USER? REGISTER HERE</u></string>
+    <string name="date">17 December 2019</string>
 </resources>
