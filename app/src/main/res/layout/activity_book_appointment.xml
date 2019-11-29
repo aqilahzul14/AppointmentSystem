@@ -144,6 +144,7 @@
         android:background="@color/defaultColor"
         android:textColor="@color/white"
         android:text="Make Appointment"
+        android:onClick="goToHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
