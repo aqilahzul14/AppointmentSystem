@@ -54,4 +54,6 @@ public class MainActivity extends AppCompatActivity {
         Intent goToReg = new Intent(MainActivity.this, Register.class);
         startActivity(goToReg);
     }
+
+
 }
