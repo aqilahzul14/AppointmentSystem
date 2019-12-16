@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         myDb = new DatabaseHelper(this);
         ETLEmail = (EditText)findViewById(R.id.ETLEmail);
         ETLPass = (EditText)findViewById(R.id.ETLPass);
+//        Intent intent = new Intent(this, ChatActvity.class);
+//        startActivity(intent);
     }
 
     public void login(View view){
