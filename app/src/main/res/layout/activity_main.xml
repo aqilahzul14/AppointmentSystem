@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/ETLEmail"
         android:layout_width="345dp"
         android:layout_height="48dp"
         android:background="@drawable/etborder"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/ETLPass"
         android:layout_width="345dp"
         android:layout_height="48dp"
         android:background="@drawable/etborder"
@@ -45,6 +45,7 @@
         android:fontFamily="@font/montserrat_regular"
         android:background="@color/defaultColor"
         android:textColor="@color/white"
+        android:onClick="login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
